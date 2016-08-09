@@ -1,6 +1,8 @@
 <?php
 require_once("classes/global_class_include.php");
 require_once("inc/functions.php");
+echo '<a href="/BBRR/">Home</a>';
+
 
 showLogFileDropdown();
 
