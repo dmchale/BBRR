@@ -6,7 +6,8 @@ function showReplayDropdown() {
 
     $arrFiles = scandir("replays");
     foreach ($arrFiles as $file) {
-        if ( strrchr($file, '.') == ".sqlite" ) {
+        if ( strrchr($file, '.') == ".sqlite" ||
+	     strrchr($file, '.') == ".db" ) {
             $selected = "";
             if ($_REQUEST["replayFile"] == $file)
                 $selected = "selected";

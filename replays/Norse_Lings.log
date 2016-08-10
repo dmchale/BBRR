@@ -1,0 +1,6536 @@
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+BloodBowlChaos - 2016/08/08 11:56:32
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ | 
+ |  +- Base game init
+ |  | 
+ |  | 
+ |  |  +- Removing logs
+ |  |  | 
+ |  |  | Removing log C:/Users/Evan/Documents/BloodBowlChaos/CEGUI.log
+ |  |  | 
+ |  |  +- Removing logs
+ |  | 
+ |  | 
+ |  +- Base game init
+ | 
+ | Executable version : 3.0.2.2
+ | 
+ |  +- Hardware information
+ |  | 
+ |  | ProcessorDesc                 : 
+ |  | ProcessorCoreCount            : 4
+ |  | ProcessorSpeed                : 3312
+ |  | NbMaxCorePerPhysicalProcessor : 8
+ |  | HyperThreading                : 0
+ |  | TotalRAM                      : 32720
+ |  | DirectXVersion                : 
+ |  | GPUDriverName                 : NVIDIA GeForce GTX 970
+ |  | GPUName                       : 
+ |  | GPUManufacturer               : 
+ |  | GPUDriverDate                 : 
+ |  | GPUTotalVRamMB                : 3072
+ |  | GPUSupportedPS                : 1600085855
+ |  | GPUSupportedVS                : 1600085855
+ |  | GPUNbMaxUnits                 : 1600085855
+ |  | GPUScore                      : 5
+ |  | SystemMajorVersion            : 6
+ |  | SystemMinorVersion            : 2
+ |  | 
+ |  +- Hardware information
+ | 
+ | 
+ |  +- Initialize game systems
+ |  | 
+ |  | Register game systems
+ |  | Initialize game systems
+ |  | 
+ |  |  +- Init Working directory
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Working directory : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Game content
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Init content
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Init content
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Game content : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Data & Big files
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Data & Big files : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Product
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Product : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Languages
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Languages : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Command-line parse
+ |  |  | 
+ |  |  | Command line : 
+ |  |  | Parsed !
+ |  |  | 
+ |  |  +- Init Command-line parse : Ok
+ |  | 
+ |  | 
+ |  |  +- Init UserData
+ |  |  | 
+ |  |  | Initializing user data
+ |  |  | Init paths
+ |  |  | Clean directories
+ |  |  | Build directories
+ |  |  | Copying : WorldCup.db
+ |  |  | Copying : 1_12.db
+ |  |  | Copying : 1_16.db
+ |  |  | Copying : 1_20.db
+ |  |  | Copying : 2_12.db
+ |  |  | Copying : 2_16.db
+ |  |  | Copying : 2_20.db
+ |  |  | Copying : 3_12.db
+ |  |  | Copying : 3_16.db
+ |  |  | Copying : 3_20.db
+ |  |  | Copying : 4_12.db
+ |  |  | Copying : 4_16.db
+ |  |  | Copying : 4_20.db
+ |  |  | Copying : 5_12.db
+ |  |  | Copying : 5_16.db
+ |  |  | Copying : 5_20.db
+ |  |  | Copying : WorldCup.db
+ |  |  | Create user scripts
+ |  |  | Create user batch files
+ |  |  | 
+ |  |  |  +- Initialize saved games system
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Initialize saved games system
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Initialize options system
+ |  |  |  | 
+ |  |  |  | Selected configuration preset : 4
+ |  |  |  | 
+ |  |  |  |  +- Initialize user-config
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  +- Initialize user-config
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Find available video modes
+ |  |  |  |  | 
+ |  |  |  |  | F (1024x0768x32) 060Hz
+ |  |  |  |  | F (1024x0768x32) 075Hz
+ |  |  |  |  | F (1152x0864x32) 060Hz
+ |  |  |  |  | F (1152x0864x32) 075Hz
+ |  |  |  |  | F (1176x0664x32) 060Hz
+ |  |  |  |  | F (1280x0720x32) 060Hz
+ |  |  |  |  | F (1280x0768x32) 060Hz
+ |  |  |  |  | F (1280x0768x32) 075Hz
+ |  |  |  |  | F (1280x0800x32) 060Hz
+ |  |  |  |  | F (1280x0800x32) 075Hz
+ |  |  |  |  | F (1280x0960x32) 060Hz
+ |  |  |  |  | F (1280x0960x32) 075Hz
+ |  |  |  |  | F (1280x1024x32) 060Hz
+ |  |  |  |  | F (1280x1024x32) 075Hz
+ |  |  |  |  | F (1360x0768x32) 075Hz
+ |  |  |  |  | F (1360x0768x32) 060Hz
+ |  |  |  |  | F (1366x0768x32) 075Hz
+ |  |  |  |  | F (1366x0768x32) 060Hz
+ |  |  |  |  | F (1600x0900x32) 060Hz
+ |  |  |  |  | F (1600x1024x32) 060Hz
+ |  |  |  |  | F (1600x1200x32) 060Hz
+ |  |  |  |  | F (1680x1050x32) 060Hz
+ |  |  |  |  | F (1768x0992x32) 060Hz
+ |  |  |  |  | F (1920x1080x32) 060Hz
+ |  |  |  |  | F (1920x1200x32) 060Hz
+ |  |  |  |  | F (1920x1440x32) 060Hz
+ |  |  |  |  | F (2560x1440x32) 060Hz
+ |  |  |  |  | F (1440x0900x32) 075Hz
+ |  |  |  |  | F (1440x0900x32) 060Hz
+ |  |  |  |  | 
+ |  |  |  |  +- Find available video modes
+ |  |  |  | 
+ |  |  |  | Selected video mode : F (2560x1440x32) 060Hz
+ |  |  |  | 
+ |  |  |  |  +- Fill user-config supported options
+ |  |  |  |  | 
+ |  |  |  |  | Language
+ |  |  |  |  | Video/Resolution
+ |  |  |  |  | Video/Frequency
+ |  |  |  |  | Video/Adapter
+ |  |  |  |  | Renderer/Multisampling
+ |  |  |  |  | Renderer/Anisotropy
+ |  |  |  |  | Textures/Quality
+ |  |  |  |  | Video/Shaders
+ |  |  |  |  | Shadows/Quality
+ |  |  |  |  | Gui/IngameLogMinAlpha
+ |  |  |  |  | Sound/Volumes/FX
+ |  |  |  |  | Sound/Volumes/Music
+ |  |  |  |  | Sound/Volumes/Comments
+ |  |  |  |  | Sound/Hardware
+ |  |  |  |  | PostProcess/Glow/Enable
+ |  |  |  |  | Cinematics/Enable
+ |  |  |  |  | InstantReplays/Enable
+ |  |  |  |  | Field/Animated
+ |  |  |  |  | Gui/Background3D
+ |  |  |  |  | Field/DetailsLevel
+ |  |  |  |  | Fur/Enable
+ |  |  |  |  | Grass/Enable
+ |  |  |  |  | Renderer/NbBackBuffers
+ |  |  |  |  | 
+ |  |  |  |  +- Fill user-config supported options
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Initialize options system
+ |  |  | 
+ |  |  | Load hints
+ |  |  | 
+ |  |  +- Init UserData : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Command-line exec
+ |  |  | 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ |  |  | 
+ |  |  +- Init Command-line exec : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Window properties
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Window properties : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Random generators
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Randoms
+ |  |  |  | 
+ |  |  |  | Sync  : 666
+ |  |  |  | Async : 322843633
+ |  |  |  | 
+ |  |  |  +- Randoms
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Random generators : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Process properties
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Process
+ |  |  |  | 
+ |  |  |  | No special scheduling needs.
+ |  |  |  | 
+ |  |  |  +- Process
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Process properties : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Scripting
+ |  |  | 
+ |  |  | Run script : Data/Scripts/Init.lua
+ |  |  | Run script : C:/Users/Evan/Documents/BloodBowlChaos/Scripts/Init.lua
+ |  |  | Game pre-initialization script
+ |  |  | User pre-initialization script
+ |  |  | 
+ |  |  +- Init Scripting : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Database
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Init database
+ |  |  |  | 
+ |  |  |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/DB/WorldCup.db
+ |  |  |  | 
+ |  |  |  +- Init database
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Database : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Localization
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Localization : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Inputs
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Input contexts
+ |  |  |  | 
+ |  |  |  | WARNING : Syntax error in Virtual input key declaration, expecting "("
+ |  |  |  | DEBUG
+ |  |  |  | VIDEO
+ |  |  |  | Contexts : GLOBAL(1)
+ |  |  |  | GLOBAL
+ |  |  |  | GUI
+ |  |  |  | CAMERA
+ |  |  |  | CAMERAMENUS
+ |  |  |  | CAMERAMATCHDEFAULT
+ |  |  |  | CAMERAMATCHAUTO
+ |  |  |  | CAMERAMATCHSIDE
+ |  |  |  | CAMERAMATCHTV
+ |  |  |  | CAMERAMATCHMANUAL
+ |  |  |  | CAMERAFREE
+ |  |  |  | MATCH
+ |  |  |  | PLAYERTEAMHUMAN
+ |  |  |  | MATCHENGAGEMENT
+ |  |  |  | PLAYERTEAMPLACEMENT
+ |  |  |  | PLAYERTEAMGAMEPLAYTT
+ |  |  |  | PLAYERTEAMGAMEPLAYRT
+ |  |  |  | PLAYERTEAMSINGLEACTION
+ |  |  |  | 
+ |  |  |  +- Input contexts
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Inputs : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Sound
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Minimal initializations
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Sound drivers
+ |  |  |  |  | 
+ |  |  |  |  | Primary Sound Driver
+ |  |  |  |  | Speakers (USB Modi Device)
+ |  |  |  |  | Speakers (Sound Blaster Recon3Di)
+ |  |  |  |  | SPDIF-Out (Sound Blaster Recon3Di)
+ |  |  |  |  | Acer K272HUL-4 (2- NVIDIA High Definition Audio)
+ |  |  |  |  | 
+ |  |  |  |  +- Sound drivers
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Minimal initializations
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Final initializations
+ |  |  |  | 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ |  |  |  | 
+ |  |  |  |  +- Sound record drivers
+ |  |  |  |  | 
+ |  |  |  |  | Primary Sound Capture Driver
+ |  |  |  |  | Microphone (USB Microphone)
+ |  |  |  |  | What U Hear (Sound Blaster Recon3Di)
+ |  |  |  |  | Microphone (HD Pro Webcam C920)
+ |  |  |  |  | 
+ |  |  |  |  +- Sound record drivers
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Final initializations
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Initialize sound manager
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Load channel groups types
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  +- Load channel groups types
+ |  |  |  | 
+ |  |  |  | Load sounds Sounds
+ |  |  |  | 
+ |  |  |  +- Initialize sound manager
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Sound : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Renderer
+ |  |  | 
+ |  |  | Recurse directory Data/3d/Shaders\Data\
+ |  |  | Recurse directory Data/3d/Shaders\Data\DX9\
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\BlackMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\CMMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\DMMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\FurFinShader.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\FurMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\FurShoot.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\GrassMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\GroundMaterial.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\NDFShader.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\Phong.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\PostProcess.fx
+ |  |  | Found .FX File Data/3d/Shaders\Data\DX9\PrecipitationMaterial.fx
+ |  |  | Recurse directory Data/3d/Shaders\Data\Textures\
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\BlackMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\BlackMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\CMMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\CMMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\DMMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\DMMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\FurFinShader.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\FurFinShader.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\FurMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\FurMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\FurShoot.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\FurShoot.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\GrassMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\GrassMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\GroundMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\GroundMaterial.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\NDFShader.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\NDFShader.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\Phong.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\Phong.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\PostProcess.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\PostProcess.fx
+ |  |  | Attempting to load Data/3d/Shaders\Data\DX9\PrecipitationMaterial.fx
+ |  |  | Loaded Data/3d/Shaders\Data\DX9\PrecipitationMaterial.fx
+ |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  | 
+ |  |  | Reset FX Manager
+ |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Processing user-data
+ |  |  |  | 
+ |  |  |  | Processing logos
+ |  |  |  | Processing skins
+ |  |  |  | 
+ |  |  |  +- Processing user-data
+ |  |  | 
+ |  |  | 
+ |  |  |  +- GUI Scenes preloading
+ |  |  |  | 
+ |  |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  |  | 
+ |  |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Renderer : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Gui
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Init GUI system
+ |  |  |  | 
+ |  |  |  | Create inputs
+ |  |  |  | Create CEGUI resources provider
+ |  |  |  | 
+ |  |  |  |  +- Init core settings
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  +- Init core settings
+ |  |  |  | 
+ |  |  |  | Create CEGUI system
+ |  |  |  | Load base settings
+ |  |  |  | 
+ |  |  |  |  +- Init settings
+ |  |  |  |  | 
+ |  |  |  |  | Multiple-click timeout : 0.200000 s
+ |  |  |  |  | 
+ |  |  |  |  +- Init settings
+ |  |  |  | 
+ |  |  |  | Setup layout schema
+ |  |  |  | Create root window
+ |  |  |  | 
+ |  |  |  |  +- Init scheme
+ |  |  |  |  | 
+ |  |  |  |  | Scheme loaded : Data/Gui/Schemes/BBLook.scheme
+ |  |  |  |  | 
+ |  |  |  |  +- Init scheme
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Init fonts
+ |  |  |  |  | 
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Big.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Console.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Event-01.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Event-02.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-01.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-02.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-03.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-04.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-05.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Infos-06.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Number-01.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Number-02.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Number-03.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Number-04.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_Number-05.font
+ |  |  |  |  | Font loaded Data/Gui/Fonts/English/BB_SmallList-01.font
+ |  |  |  |  | 
+ |  |  |  |  +- Init fonts
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Init pages
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  +- Init pages
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Init GUI system
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Gui : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Manager
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Init manager
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  |  +- Defaults DB data
+ |  |  |  |  | 
+ |  |  |  |  | Formations
+ |  |  |  |  | 
+ |  |  |  |  +- Defaults DB data
+ |  |  |  | 
+ |  |  |  | Tactics
+ |  |  |  | Roles
+ |  |  |  | AIPositions
+ |  |  |  | 
+ |  |  |  |  +- Content scan result
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  +- Content scan result
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Init manager
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Manager : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Net
+ |  |  | 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ |  |  | 
+ |  |  +- Init Net : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Game-Center
+ |  |  | 
+ |  |  | 
+ |  |  +- Init Game-Center : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Actors
+ |  |  | 
+ |  |  | Contexts : GLOBAL(1)GUI(1)
+ |  |  | Apply video mode : W (2560x1440x32) 060Hz
+ |  |  | 
+ |  |  +- Init Actors : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Post-init script
+ |  |  | 
+ |  |  | User post-initialization script
+ |  |  | Game post-initialization script
+ |  |  | 
+ |  |  +- Init Post-init script : Ok
+ |  | 
+ |  | 
+ |  |  +- Init Timing
+ |  |  | 
+ |  |  | Timer reset
+ |  |  | 
+ |  |  +- Init Timing : Ok
+ |  | 
+ |  | 
+ |  +- Initialize game systems
+ | 
+ | [Steam] Steam is running
+ | Contexts : VIDEO(1)GLOBAL(1)GUI(1)
+ | 
+ |  +- Init
+ |  | 
+ |  | COM Init...
+ |  | COM Init... OK
+ |  | Are WMR9 present ?
+ |  | Are WMR9 present : TESTING...
+ |  | Are WMR9 present : TESTING... OK
+ |  | WMR9 OK !
+ |  | Init... OK
+ |  | 
+ |  +- Init
+ | 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ | Playing video Data/Videos/Cyanide.avi
+ | 
+ |  +- Init
+ |  | 
+ |  | COM Init...
+ |  | COM Init... OK
+ |  | Are WMR9 present ?
+ |  | Are WMR9 present : TESTING...
+ |  | Are WMR9 present : TESTING... OK
+ |  | WMR9 OK !
+ |  | Init... OK
+ |  | 
+ |  +- Init
+ | 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ | Playing video Data/Videos/Focus.avi
+ | Contexts : GLOBAL(1)GUI(1)
+ | Load sounds Menu
+ | Load sounds Comments
+ | Quit campaign
+ | Contexts : GLOBAL(1)GUI(1)CAMERAMENUS(1)
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Teams/Odin's Wrath.db
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_17-36-49.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_18-24-11.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_21-08-52.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-20_14-05-49.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-06-12_00-01-57.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-06-12_12-34-26.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-06-25_10-17-45.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-03_19-02-27.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-10_19-36-20.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-10_20-14-24.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-17_19-10-20.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-08-03_21-52-38.db
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/WorldCup/World Cup 1.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_17-36-49.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_17-36-49.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_17-36-49.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-02-18_17-36-49.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-08-03_21-52-38.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-08-03_21-52-38.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ | Set match version to 3.0.2.2
+ | 
+ |  +- Init database
+ |  | 
+ |  | Check file existence
+ |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ |  | 
+ |  +- Init database
+ | 
+ | Open database C:/Users/Evan/Documents/BloodBowlChaos/Saves/Replays/Replay_2016-07-30_10-03-32.db
+ | 
+ |  +- CStateGameMatchLoadBegin
+ |  | 
+ |  | 
+ |  |  +- Scan saves
+ |  |  | 
+ |  |  | 
+ |  |  +- Scan saves
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)
+ |  | 
+ |  +- CStateGameMatchLoadBegin
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadBeginGUI
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadBeginGUI
+ | 
+ | 
+ |  +- CStateGameMatchLoadPreloadFX
+ |  | 
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:005000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Life.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Fx_Ball/Fx_Ball.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/FX_Ball_Player/FX_Ball_Player.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Pass/ThrowZone_Pass.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Blitzer/Blitzer_In.nif
+ |  |  | FX Loading: Loop:1, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Blitzer/Blitzer_Life.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Blitzer/Blitzer_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:002333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_1.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_2.nif
+ |  |  | FX Loading: Loop:0, Duration:006600ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_3.nif
+ |  |  | FX Loading: Loop:0, Duration:002333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_1.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_2.nif
+ |  |  | FX Loading: Loop:0, Duration:006600ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/BloodFloor/Blood_3.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Fx_Bomb/Fx_Bomb.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/FX_Bomb_Player/FX_Bomb_Player.nif
+ |  |  | FX Loading: Loop:1, Duration:012333ms, ParticlesMaxLife:010666ms, DurationRequest:008000ms, Data/3d/Fx/Bomb/BombExplosion.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:005000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Life.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Agressif/IA_Agressif_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Agressif/IA_Agressif_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Agressif/IA_Agressif_Out.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienBonus/SoutienBonus_1.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienBonus/SoutienBonus.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienBonus/SoutienBonus_3.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_ATT/IA_ATT.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_DEF/IA_DEF.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_NO/IA_NO.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Protec/IA_Protec.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_FaintHunter/IA_FaintHunter.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Pression/IA_Pression.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_StarHunter/IA_StarHunter.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Pass/ThrowZone_Gob.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Normal/IA_Normal_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Normal/IA_Normal_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Normal/IA_Normal_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Passif/IA_Passif_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Passif/IA_Passif_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/IA_Passif/IA_Passif_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Obj/Priority_Obj_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Obj/Priority_Obj_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Obj/Priority_Obj_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Placement/Priority_Placement_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Placement/Priority_Placement_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Placement/Priority_Placement_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Soutien/Priority_Soutien_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Soutien/Priority_Soutien_Loop.nif
+ |  |  | FX Loading: Loop:0, Duration:000533ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Priority_Soutien/Priority_Soutien_Out.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_In.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Life.nif
+ |  |  | FX Loading: Loop:0, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/CharacterReroll/CharacterReroll_Out.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/PlayerSelection/PlayerSelection_TT.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/PlayerSelection/PlayerSelection_TT.nif
+ |  |  | FX Loading: Loop:0, Duration:006600ms, ParticlesMaxLife:003333ms, DurationRequest:006000ms, Data/3d/Fx/Holligan/Holligan.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/DZ/DZ.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Pass/ThrowZone_DumpOff.nif
+ |  |  | FX Loading: Loop:0, Duration:016666ms, ParticlesMaxLife:000700ms, DurationRequest:-01000ms, Data/3d/Fx/BloodImpactDown/BloodImpactDown.nif
+ |  |  | FX Loading: Loop:0, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Faulty/Faulty_In.nif
+ |  |  | FX Loading: Loop:1, Duration:004000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Faulty/Faulty_Life.nif
+ |  |  | FX Loading: Loop:0, Duration:000300ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Faulty/Faulty_Out.nif
+ |  |  | FX Loading: Loop:1, Duration:013333ms, ParticlesMaxLife:010666ms, DurationRequest:008000ms, Data/3d/Fx/WizardPublic/FireBall/Impact_FireBall.nif
+ |  |  | FX Loading: Loop:1, Duration:000666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/FireBall/Cursor_FireBall.nif
+ |  |  | FX Loading: Loop:0, Duration:003000ms, ParticlesMaxLife:000833ms, DurationRequest:-01000ms, Data/3d/Fx/BloodImpact/BloodImpact.nif
+ |  |  | FX Loading: Loop:0, Duration:016666ms, ParticlesMaxLife:000700ms, DurationRequest:-01000ms, Data/3d/Fx/BloodImpactDown/BloodImpactDown.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:000333ms, Data/3d/Fx/MouseClick/MouseClick.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/MouseOverBall/MouseOverBall.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/MouseOverBall/MouseOverChar.nif
+ |  |  | FX Loading: Loop:1, Duration:013333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/DisturbingPresence/DisturbingPresence.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:005000ms, DurationRequest:-01000ms, Data/3d/Fx/FoulAppearance/FoulAppearance.nif
+ |  |  | FX Loading: Loop:0, Duration:006000ms, ParticlesMaxLife:002666ms, DurationRequest:-01000ms, Data/3d/Fx/NurglesRot/NurglesRot.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienMalus/SoutienMalus_1.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienMalus/SoutienMalus.nif
+ |  |  | FX Loading: Loop:1, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/SoutienMalus/SoutienMalus_3.nif
+ |  |  | FX Loading: Loop:0, Duration:016666ms, ParticlesMaxLife:000700ms, DurationRequest:-01000ms, Data/3d/Fx/BloodImpactDown/BloodImpactDown.nif
+ |  |  | FX Loading: Loop:0, Duration:005333ms, ParticlesMaxLife:001666ms, DurationRequest:-01000ms, Data/3d/Fx/RaiseTheDead/RaiseTheDead.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Red_Arrows/Red_Arrows.nif
+ |  |  | FX Loading: Loop:0, Duration:000000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/ShortPass/ShortPass.nif
+ |  |  | FX Loading: Loop:0, Duration:000333ms, ParticlesMaxLife:000700ms, DurationRequest:-01000ms, Data/3d/Fx/Blockage/Blockage.nif
+ |  |  | FX Loading: Loop:0, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_in.nif
+ |  |  | FX Loading: Loop:1, Duration:003000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_life.nif
+ |  |  | FX Loading: Loop:0, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_out.nif
+ |  |  | FX Loading: Loop:0, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_in.nif
+ |  |  | FX Loading: Loop:1, Duration:003000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_life.nif
+ |  |  | FX Loading: Loop:0, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/TakeRoot/TakeRoot_out.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Dead/Dead.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Dead/Dead.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Injured/Injured.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Injured/Injured.nif
+ |  |  | FX Loading: Loop:1, Duration:002666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/StateKnockedDown/StateKnockedDown.nif
+ |  |  | FX Loading: Loop:1, Duration:002666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/StateKnockedDown/StateKnockedDown.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/KO/KO.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/KO/KO.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/Stunned/Stunned.nif
+ |  |  | FX Loading: Loop:1, Duration:002000ms, ParticlesMaxLife:000000ms, DurationRequest:200000ms, Data/3d/Fx/WizardPublic/Orc/Impact_WizardOrc.nif
+ |  |  | FX Loading: Loop:0, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Halfling/Impact_WizardHalfling_01.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Halfling/Impact_WizardHalfling_02.nif
+ |  |  | FX Loading: Loop:0, Duration:000300ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Halfling/Impact_WizardHalfling_03.nif
+ |  |  | FX Loading: Loop:1, Duration:006666ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Halfling/Cursor_WizardHalfling.nif
+ |  |  | FX Loading: Loop:1, Duration:011966ms, ParticlesMaxLife:006666ms, DurationRequest:003000ms, Data/3d/Fx/WizardPublic/LightningBolt/ImpactLightningBolt.nif
+ |  |  | FX Loading: Loop:1, Duration:000800ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/LightningBolt/CursorLightningBolt.nif
+ |  |  | FX Loading: Loop:1, Duration:006000ms, ParticlesMaxLife:003000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/LizardMan/Impact_WizardLizardMan_2.nif
+ |  |  | FX Loading: Loop:1, Duration:001000ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/LizardMan/Cursor_WizardLizardMan_2.nif
+ |  |  | FX Loading: Loop:0, Duration:000333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/LizardMan/Cursor_WizardLizardMan_3.nif
+ |  |  | FX Loading: Loop:0, Duration:005333ms, ParticlesMaxLife:001833ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Norse/Impact_WizardNorse_01.nif
+ |  |  | FX Loading: Loop:1, Duration:003666ms, ParticlesMaxLife:001833ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Norse/Impact_WizardNorse_02.nif
+ |  |  | FX Loading: Loop:0, Duration:000500ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Norse/Impact_WizardNorse_03.nif
+ |  |  | FX Loading: Loop:1, Duration:001333ms, ParticlesMaxLife:000000ms, DurationRequest:-01000ms, Data/3d/Fx/WizardPublic/Norse/Cursor_WizardNorse.nif
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadPreloadFX
+ | 
+ | 
+ |  +- CStateGameMatchLoadCreateMatchActor
+ |  | 
+ |  | Create match
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)
+ |  | CActorMatchTTFastForward -> CActorMatchTT
+ |  | 
+ |  +- CStateGameMatchLoadCreateMatchActor
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadScenario
+ |  | 
+ |  | Load scenario
+ |  | 
+ |  +- CStateGameMatchLoadScenario
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadField
+ |  | 
+ |  | "post" active-pause glow parameters : (0.50,0.64,0.85,0.50) 1.20 1.94
+ |  | "post" active-pause glow parameters : (0.63,0.46,0.34,0.00) 2.00 0.60
+ |  | "post" render-step glow parameters : (0.28,0.18,0.20,0.20) 2.70 0.42
+ |  | MatchEnding cam hint : generic
+ |  | Load field geometry
+ |  | Loading level : Data/3d/Level/Level_06/Level_06.nif
+ |  | 
+ |  |  +- Loading placeholders
+ |  |  | 
+ |  |  | CameraGob01
+ |  |  | Flag01
+ |  |  | 0    10    20    30    40    50    60    70    80    90    100
+ |  |  | |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+ |  |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ |  |  | 0    10    20    30    40    50    60    70    80    90    100
+ |  |  | |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+ |  |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ |  |  | Flag02
+ |  |  | Public01
+ |  |  | Public02
+ |  |  | Public03
+ |  |  | Public04
+ |  |  | 0    10    20    30    40    50    60    70    80    90    100
+ |  |  | |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+ |  |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ |  |  | 0    10    20    30    40    50    60    70    80    90    100
+ |  |  | |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+ |  |  | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ |  |  | Stegadon
+ |  |  | 
+ |  |  +- Loading placeholders
+ |  | 
+ |  | Loading logos
+ |  | Update scene
+ |  | 
+ |  +- CStateGameMatchLoadField
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadSounds
+ |  | 
+ |  | 
+ |  |  +- Load match sounds
+ |  |  | 
+ |  |  | Match
+ |  |  | Load sounds Match
+ |  |  | Load sounds Character
+ |  |  | Load sounds CharacterSkills
+ |  |  | Load sounds Comments
+ |  |  | Load sounds CommentsFemale
+ |  |  | Load sounds Referee
+ |  |  | Load sounds Wizard
+ |  |  | Public
+ |  |  | Races
+ |  |  | Halfling
+ |  |  | Load sounds 
+ |  |  | Norse
+ |  |  | Load sounds 
+ |  |  | StarPlayers
+ |  |  | Load sounds 
+ |  |  | Comments
+ |  |  | Loaded! : MaleActionBallRecoverMiss
+ |  |  | Loaded! : MaleActionBallRecoverSuccess
+ |  |  | Loaded! : MaleActionCatchMiss
+ |  |  | Loaded! : MaleActionCatchMissContact
+ |  |  | Loaded! : MaleActionCatchSuccess
+ |  |  | Loaded! : MaleActionCloseTD
+ |  |  | Loaded! : MaleActionDodge
+ |  |  | Loaded! : MaleActionFightWinner
+ |  |  | Loaded! : MaleActionHealer
+ |  |  | Loaded! : MaleActionInterception
+ |  |  | Loaded! : MaleActionPassMiss
+ |  |  | Loaded! : MaleActionPassMissEndGame
+ |  |  | Loaded! : MaleActionPassSuccess
+ |  |  | Loaded! : MaleActionPassSuccessContact
+ |  |  | Loaded! : MaleActionPassSuccessLong
+ |  |  | Loaded! : MaleActionPositioning
+ |  |  | Loaded! : MaleActionPushedOutside
+ |  |  | Loaded! : MaleActionRestart
+ |  |  | Loaded! : MaleActionSpellFireBall
+ |  |  | Loaded! : MaleActionSpellLightning
+ |  |  | SKIPPED : MaleActionSpellMagicGoblin
+ |  |  | SKIPPED : MaleActionSpellMagicElf
+ |  |  | SKIPPED : MaleActionSpellMagicOrc
+ |  |  | SKIPPED : MaleActionSpellMagicDwarf
+ |  |  | SKIPPED : MaleActionSpellMagicLizardMan
+ |  |  | SKIPPED : MaleActionSpellMagicChaos
+ |  |  | Loaded! : MaleActionSprintTD
+ |  |  | Loaded! : MaleActionTackle
+ |  |  | Loaded! : MaleActionTackleStartGame
+ |  |  | Loaded! : MaleActionTackleEndGame
+ |  |  | Loaded! : MaleActionTrample
+ |  |  | Loaded! : MaleGobCrash
+ |  |  | Loaded! : MaleGobLand
+ |  |  | Loaded! : MaleGobThrow
+ |  |  | SKIPPED : MaleHistoricalChaos
+ |  |  | SKIPPED : MaleHistoricalDwarf
+ |  |  | SKIPPED : MaleHistoricalGoblin
+ |  |  | SKIPPED : MaleHistoricalHuman
+ |  |  | SKIPPED : MaleHistoricalLizardman
+ |  |  | SKIPPED : MaleHistoricalOrc
+ |  |  | SKIPPED : MaleHistoricalSkaven
+ |  |  | Loaded! : MaleHistoricalHalfling
+ |  |  | SKIPPED : MaleHistoricalUndead
+ |  |  | Loaded! : MaleHistoricalNorse
+ |  |  | SKIPPED : MaleHistoricalAmazon
+ |  |  | SKIPPED : MaleHistoricalElf
+ |  |  | SKIPPED : MaleHistoricalHighElf
+ |  |  | SKIPPED : MaleHistoricalKhemri
+ |  |  | SKIPPED : MaleHistoricalNecromantic
+ |  |  | SKIPPED : MaleHistoricalNurgle
+ |  |  | SKIPPED : MaleHistoricalOgre
+ |  |  | SKIPPED : MaleHistoricalVampire
+ |  |  | Loaded! : MaleHistoricalVarious
+ |  |  | SKIPPED : MaleHistoricalWoodElf
+ |  |  | SKIPPED : MaleHistoricalDarkElf
+ |  |  | SKIPPED : MaleHistoricalKhorne
+ |  |  | SKIPPED : MaleHistoricalChaosDwarf
+ |  |  | SKIPPED : MaleHistoricalUnderworld
+ |  |  | Loaded! : MalePresentationHigherTeamValue
+ |  |  | Loaded! : MalePresentationSameRace
+ |  |  | Loaded! : MalePresentationSameTeamValue
+ |  |  | Loaded! : MalePresentationWelcome
+ |  |  | Loaded! : MaleRefAnnouncement
+ |  |  | Loaded! : MaleRefCorruption
+ |  |  | Loaded! : MaleRefRedCard
+ |  |  | Loaded! : MaleScoreEndGameDefeatLarge
+ |  |  | Loaded! : MaleScoreEndGameDefeatSmall
+ |  |  | Loaded! : MaleScoreEndGameDrawGame
+ |  |  | Loaded! : MaleScoreEndGameVictoryLarge
+ |  |  | Loaded! : MaleScoreEndGameVictorySmall
+ |  |  | Loaded! : MaleScoreTD2min
+ |  |  | Loaded! : MaleScoreTD2minBigDifference
+ |  |  | Loaded! : MaleScoreTDBigDifference
+ |  |  | Loaded! : MaleScoreTDOneLess
+ |  |  | Loaded! : MaleScoreTDOneMore
+ |  |  | Loaded! : MaleScoreTDPoint
+ |  |  | Loaded! : MaleScoreTDTie
+ |  |  | Loaded! : MaleScoreTouchdown
+ |  |  | Loaded! : MaleScoreTouchdownFirst
+ |  |  | Loaded! : MaleStarPlayer
+ |  |  | Loaded! : MaleStarPlayerBigWound
+ |  |  | Loaded! : MaleStateDead
+ |  |  | Loaded! : MaleStateHurtStun
+ |  |  | Loaded! : MaleStateKO
+ |  |  | Loaded! : MaleStateWound
+ |  |  | Loaded! : MaleTiming2minBigDifference
+ |  |  | Loaded! : MaleTiming2minCatchUp
+ |  |  | Loaded! : MaleTiming2minDeuce
+ |  |  | Loaded! : MaleTimingEnding
+ |  |  | Loaded! : MaleTimingHalfTimeStart
+ |  |  | Loaded! : MaleTimingHalfTimeStop
+ |  |  | Loaded! : MaleThreeMenExpulsion
+ |  |  | Loaded! : MaleWeatherBlizzard
+ |  |  | Loaded! : MaleWeatherNice
+ |  |  | Loaded! : MaleWeatherPouringRain
+ |  |  | Loaded! : MaleWeatherSwelteringHeat
+ |  |  | Loaded! : MaleWeatherVerySunny
+ |  |  | Loaded! : FemaleActionBallRecoverMiss
+ |  |  | Loaded! : FemaleActionBallRecoverSuccess
+ |  |  | Loaded! : FemaleActionCatchMiss
+ |  |  | Loaded! : FemaleActionCatchMissContact
+ |  |  | Loaded! : FemaleActionCatchSuccess
+ |  |  | Loaded! : FemaleActionCloseTD
+ |  |  | Loaded! : FemaleActionDodge
+ |  |  | Loaded! : FemaleActionFightWinner
+ |  |  | Loaded! : FemaleActionHealer
+ |  |  | Loaded! : FemaleActionInterception
+ |  |  | Loaded! : FemaleActionPassMiss
+ |  |  | Loaded! : FemaleActionPassMissEndGame
+ |  |  | Loaded! : FemaleActionPassSuccess
+ |  |  | Loaded! : FemaleActionPassSuccessContact
+ |  |  | Loaded! : FemaleActionPassSuccessLong
+ |  |  | Loaded! : FemaleActionPositioning
+ |  |  | Loaded! : FemaleActionPushedOutside
+ |  |  | Loaded! : FemaleActionRestart
+ |  |  | Loaded! : FemaleActionSpellFireBall
+ |  |  | Loaded! : FemaleActionSpellLightning
+ |  |  | SKIPPED : FemaleActionSpellMagicGoblin
+ |  |  | SKIPPED : FemaleActionSpellMagicElf
+ |  |  | SKIPPED : FemaleActionSpellMagicOrc
+ |  |  | SKIPPED : FemaleActionSpellMagicDwarf
+ |  |  | SKIPPED : FemaleActionSpellMagicLizardMan
+ |  |  | SKIPPED : FemaleActionSpellMagicChaos
+ |  |  | Loaded! : FemaleActionSprintTD
+ |  |  | Loaded! : FemaleActionTackle
+ |  |  | Loaded! : FemaleActionTackleStartGame
+ |  |  | Loaded! : FemaleActionTackleEndGame
+ |  |  | Loaded! : FemaleActionTrample
+ |  |  | Loaded! : FemaleGobCrash
+ |  |  | Loaded! : FemaleGobLand
+ |  |  | Loaded! : FemaleGobThrow
+ |  |  | SKIPPED : FemaleHistoricalChaos
+ |  |  | SKIPPED : FemaleHistoricalDwarf
+ |  |  | SKIPPED : FemaleHistoricalGoblin
+ |  |  | SKIPPED : FemaleHistoricalHuman
+ |  |  | SKIPPED : FemaleHistoricalLizardman
+ |  |  | SKIPPED : FemaleHistoricalOrc
+ |  |  | SKIPPED : FemaleHistoricalSkaven
+ |  |  | SKIPPED : FemaleHistoricalHalfling
+ |  |  | SKIPPED : FemaleHistoricalUndead
+ |  |  | SKIPPED : FemaleHistoricalNorse
+ |  |  | SKIPPED : FemaleHistoricalAmazon
+ |  |  | SKIPPED : FemaleHistoricalElf
+ |  |  | SKIPPED : FemaleHistoricalHighElf
+ |  |  | SKIPPED : FemaleHistoricalKhemri
+ |  |  | SKIPPED : FemaleHistoricalNecromantic
+ |  |  | SKIPPED : FemaleHistoricalNurgle
+ |  |  | SKIPPED : FemaleHistoricalOgre
+ |  |  | SKIPPED : FemaleHistoricalVampire
+ |  |  | Loaded! : FemaleHistoricalVarious
+ |  |  | SKIPPED : FemaleHistoricalWoodElf
+ |  |  | SKIPPED : FemaleHistoricalDarkElf
+ |  |  | SKIPPED : FemaleHistoricalKhorne
+ |  |  | SKIPPED : FemaleHistoricalChaosDwarf
+ |  |  | SKIPPED : FemaleHistoricalUnderworld
+ |  |  | Loaded! : FemalePresentationHigherTeamValue
+ |  |  | Loaded! : FemalePresentationSameRace
+ |  |  | Loaded! : FemalePresentationSameTeamValue
+ |  |  | Loaded! : FemalePresentationWelcome
+ |  |  | Loaded! : FemaleRefAnnouncement
+ |  |  | Loaded! : FemaleRefCorruption
+ |  |  | Loaded! : FemaleRefRedCard
+ |  |  | Loaded! : FemaleScoreEndGameDefeatLarge
+ |  |  | Loaded! : FemaleScoreEndGameDefeatSmall
+ |  |  | Loaded! : FemaleScoreEndGameDrawGame
+ |  |  | Loaded! : FemaleScoreEndGameVictoryLarge
+ |  |  | Loaded! : FemaleScoreEndGameVictorySmall
+ |  |  | Loaded! : FemaleScoreTD2min
+ |  |  | Loaded! : FemaleScoreTD2minBigDifference
+ |  |  | Loaded! : FemaleScoreTDBigDifference
+ |  |  | Loaded! : FemaleScoreTDOneLess
+ |  |  | Loaded! : FemaleScoreTDOneMore
+ |  |  | Loaded! : FemaleScoreTDPoint
+ |  |  | Loaded! : FemaleScoreTDTie
+ |  |  | Loaded! : FemaleScoreTouchdown
+ |  |  | Loaded! : FemaleScoreTouchdownFirst
+ |  |  | Loaded! : FemaleStarPlayer
+ |  |  | Loaded! : FemaleStarPlayerBigWound
+ |  |  | Loaded! : FemaleStateDead
+ |  |  | Loaded! : FemaleStateHurtStun
+ |  |  | Loaded! : FemaleStateKO
+ |  |  | Loaded! : FemaleStateWound
+ |  |  | Loaded! : FemaleTiming2minBigDifference
+ |  |  | Loaded! : FemaleTiming2minCatchUp
+ |  |  | Loaded! : FemaleTiming2minDeuce
+ |  |  | Loaded! : FemaleTimingEnding
+ |  |  | Loaded! : FemaleTimingHalfTimeStart
+ |  |  | Loaded! : FemaleTimingHalfTimeStop
+ |  |  | Loaded! : FemaleThreeMenExpulsion
+ |  |  | SKIPPED : FemaleWeatherBlizzard
+ |  |  | SKIPPED : FemaleWeatherNice
+ |  |  | SKIPPED : FemaleWeatherPouringRain
+ |  |  | SKIPPED : FemaleWeatherSwelteringHeat
+ |  |  | SKIPPED : FemaleWeatherVerySunny
+ |  |  | Match
+ |  |  | 
+ |  |  +- Load match sounds
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadSounds
+ | 
+ | 
+ |  +- CStateGameMatchLoadCreateOtherActors
+ |  | 
+ |  | Create ball
+ |  | Create bomb
+ |  | Create referee
+ |  | 
+ |  +- CStateGameMatchLoadCreateOtherActors
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadTeams
+ |  | 
+ |  | Create team 0
+ |  | Init team 0 : id=2001765 race=12 name=Odin'sWrath
+ |  | 
+ |  |  +- Load roster (12 characters)
+ |  |  | 
+ |  |  | Loaded:24524978 Loki                     Berserker.kfm         
+ |  |  | Loaded:24524979 Thor                     Berserker.kfm         
+ |  |  | Loaded:24524980 Fenrir                   Ulfwerener.kfm         
+ |  |  | Loaded:24524981 Hel                      Ulfwerener.kfm         
+ |  |  | Loaded:24524983 Modi                     Lineman.kfm         
+ |  |  | Loaded:24524984 Magni                    Lineman.kfm         
+ |  |  | Loaded:24524985 Hermod                   Lineman.kfm         
+ |  |  | Loaded:24524986 Tyr                      Lineman.kfm         
+ |  |  | Loaded:24524987 Uller                    Lineman.kfm         
+ |  |  | Loaded:24524988 Vali                     Lineman.kfm         
+ |  |  | Loaded:24545718 Balder                   Lineman.kfm         
+ |  |  | Loaded:24558109 Sigurôrvaldr            Lineman.kfm         
+ |  |  | 
+ |  |  +- Load roster (12 characters)
+ |  | 
+ |  | Create team wizard
+ |  | Create team cheerleaders
+ |  | Create team 1
+ |  | Init team 1 : id=1999919 race=11 name=Big Moot Sandwich
+ |  | 
+ |  |  +- Load roster (13 characters)
+ |  |  | 
+ |  |  | Loaded:24501508 Monsieur Croque          Treeman.kfm         
+ |  |  | Loaded:24501509 The Notorious BLT        Treeman.kfm         
+ |  |  | Loaded:24501510 Gyro                     Halfling.kfm         
+ |  |  | Loaded:24501511 The Cuban                Halfling.kfm         
+ |  |  | Loaded:24501512 Porky Buns               Halfling.kfm         
+ |  |  | Loaded:24501514 Reuben                   Halfling.kfm         
+ |  |  | Loaded:24501515 Luther                   Halfling.kfm         
+ |  |  | Loaded:24501516 Monte Cristo             Halfling.kfm         
+ |  |  | Loaded:24501517 Number Nine              Halfling.kfm         
+ |  |  | Loaded:24501518 Meat Grinder             Halfling.kfm         
+ |  |  | Loaded:24501519 The Hero                 Halfling.kfm         
+ |  |  | Loaded:24555785 Beefy au Jus             Halfling.kfm         
+ |  |  | Cannot find Head_02 geometry
+ |  |  | Cannot find Head_03 geometry
+ |  |  | Cannot find Body_02 geometry
+ |  |  | Cannot find Body_03 geometry
+ |  |  | Cannot find Arm_02 geometry
+ |  |  | Cannot find Arm_03 geometry
+ |  |  | Cannot find Leg_02 geometry
+ |  |  | Cannot find Leg_03 geometry
+ |  |  | Loaded:01 Deeproot Strongbranch    DeeprootStrongbranch.kfm         
+ |  |  | 
+ |  |  +- Load roster (13 characters)
+ |  | 
+ |  | Create team wizard
+ |  | Create team cheerleaders
+ |  | Create team player (player=3, team=0)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(1)
+ |  | Create team player (player=3, team=1)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Clear texures compositing RAM cache
+ |  | 
+ |  +- CStateGameMatchLoadTeams
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadAnimations
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadAnimations
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadBuildScene
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadBuildScene
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadCamera
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadCamera
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadLoadFieldAndSounds
+ |  | 
+ |  | Stadium 3D precache
+ |  | 
+ |  |  +- Create team sounds
+ |  |  | 
+ |  |  | 
+ |  |  +- Create team sounds
+ |  | 
+ |  | 
+ |  |  +- Create team sounds
+ |  |  | 
+ |  |  | 
+ |  |  +- Create team sounds
+ |  | 
+ |  | Create referee sounds
+ |  | 
+ |  |  +- Load cameras Camera_TV_Dynamic
+ |  |  | 
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | Camera_TV_Dynamic
+ |  |  | 
+ |  |  +- Load cameras Camera_TV_Dynamic
+ |  | 
+ |  | 
+ |  |  +- Load cameras Camera_TV_Static
+ |  |  | 
+ |  |  | 
+ |  |  +- Load cameras Camera_TV_Static
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadLoadFieldAndSounds
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadEndGUI
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadEndGUI
+ | 
+ | 
+ |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  +- CStateGameMatchLoadNextState
+ | 
+ | 
+ |  +- CStateGameMatchLoadChangeActorsStates
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHTV(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHTV(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | GameLog(-1): 
+ |  | Init CStateMatch
+ |  | 
+ |  |  +- Enter CStateMatch
+ |  |  | 
+ |  |  | 
+ |  |  +- CStateGameMatchLoadChangeActorsStates
+ |  | 
+ |  | 
+ |  |  +- CStateGameMatchLoadNextState
+ |  |  | 
+ |  |  | 
+ |  |  +- CStateGameMatchLoadNextState
+ |  | 
+ |  | 
+ |  |  +- CStateGameMatchLoadEnd
+ |  |  | 
+ |  |  | 
+ |  |  +- CStateGameMatchLoadEnd
+ |  | 
+ |  | Start recording instant replays
+ |  | Timer reset
+ |  | Net-Manager : StartGame
+ |  | Init CStateMatchIntroScene
+ |  | 
+ |  +- Exit CStateMatch
+ | 
+ | 
+ |  +- Enter CStateMatchIntroScene
+ |  | 
+ |  | Stop recording instant replays
+ |  | Now we can give up match
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | IntroScenes pushes CStateMatchTossCreateResults
+ |  | Release CStateMatch
+ |  | IntroScenes ends the pause
+ |  | Init CStateMatchTossCreateResults
+ |  | Start recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHTV(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchIntroScene
+ | 
+ | 
+ |  +- Enter CStateMatchTossCreateResults
+ |  | 
+ |  | Release CStateMatchIntroScene
+ |  | CStateMatchTossCreateResults receives Randomize
+ |  | 
+ |  |  +- TOSS
+ |  |  | 
+ |  |  | Team   : 1
+ |  |  | Result : 0
+ |  |  | 
+ |  |  +- TOSS
+ |  | 
+ |  | Init CStateMatchTossChooseGob
+ |  | 
+ |  +- Exit CStateMatchTossCreateResults
+ | 
+ | 
+ |  +- Enter CStateMatchTossChooseGob
+ |  | 
+ |  | GameLog(06): Odin'sWrath(ODI) vs Big Moot Sandwich(SAN)
+ |  | Release CStateMatchTossCreateResults
+ |  | GameLog(06): SAN choose Heads
+ |  | Init CStateMatchTossScene
+ |  | 
+ |  +- Exit CStateMatchTossChooseGob
+ | 
+ | 
+ |  +- Enter CStateMatchTossScene
+ |  | 
+ |  | Release CStateMatchTossChooseGob
+ |  | Init CStateMatchTossChooseRole
+ |  | 
+ |  +- Exit CStateMatchTossScene
+ | 
+ | 
+ |  +- Enter CStateMatchTossChooseRole
+ |  | 
+ |  | Release CStateMatchTossScene
+ |  | GameLog(06): ODI choose to Receive
+ |  | Init CStateMatchWeather
+ |  | 
+ |  +- Exit CStateMatchTossChooseRole
+ | 
+ | 
+ |  +- Enter CStateMatchWeather
+ |  | 
+ |  | Release CStateMatchTossChooseRole
+ |  | GameLog(06): Weather Table: 5 + 6 = 11. Pouring Rain
+ |  | Meteo: Change weather: PouringRain
+ |  | Init CStateMatchPlacementScene
+ |  | 
+ |  +- Exit CStateMatchWeather
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementScene
+ |  | 
+ |  | Release CStateMatchWeather
+ |  | Init CStateMatchPrePlacementReferee
+ |  | 
+ |  +- Exit CStateMatchPlacementScene
+ | 
+ | 
+ |  +- Enter CStateMatchPrePlacementReferee
+ |  | 
+ |  | Release CStateMatchPlacementScene
+ |  | Init CStateMatchPlacementKicker
+ |  | 
+ |  +- Exit CStateMatchPrePlacementReferee
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPrePlacementReferee
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchPlacementReceiver
+ |  | GameLog(05): SAN have 11 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementKicker
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchEngagement
+ |  | GameLog(05): ODI have 12 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchEngagement
+ |  | 
+ |  | Release CStateMatchPlacementReceiver
+ |  | GameLog(02): SAN #03 Gyro  Kick-off Direction (D8) : 6
+ |  | GameLog(02): SAN #03 Gyro  Kick-off Distance (D6) : 6
+ |  | Init CStateMatchEngagementKickoffBegin
+ |  | 
+ |  +- Exit CStateMatchEngagement
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffBegin
+ |  | 
+ |  | Release CStateMatchEngagement
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffBegin
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  | Release CStateMatchEngagementKickoffBegin
+ |  | Init CStateMatchEngagementMasterChefExplain
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffreturnTT
+ | 
+ | GameLog(02): SAN: Halfling Master Chef (4+) = (6)(1)(3) -> SAN receives 1 re-roll(s) -> ODI lose 1 re-roll(s)
+ | 
+ |  +- Enter CStateMatchEngagementMasterChefExplain
+ |  | 
+ |  | Release CStateMatchEngagementKickoffreturnTT
+ |  | Init CStateMatchEngagementEvent
+ |  | 
+ |  +- Exit CStateMatchEngagementMasterChefExplain
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementEvent
+ |  | 
+ |  | GameLog(03): Kick-Off Table: 12. Pitch Invasion
+ |  | Release CStateMatchEngagementMasterChefExplain
+ |  | Init CStateMatchEngagementExplain
+ |  | 
+ |  +- Exit CStateMatchEngagementEvent
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementExplain
+ |  | 
+ |  | Release CStateMatchEngagementEvent
+ |  | Init CStateMatchEngagementScene
+ |  | 
+ |  +- Exit CStateMatchEngagementExplain
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementScene
+ |  | 
+ |  | Release CStateMatchEngagementExplain
+ |  | Init CStateMatchEngagementReplace
+ |  | 
+ |  +- Exit CStateMatchEngagementScene
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplace
+ |  | 
+ |  | Release CStateMatchEngagementScene
+ |  | Init CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  +- Exit CStateMatchEngagementReplace
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  | Release CStateMatchEngagementReplace
+ |  | Init CStateMatchEngagementFreeturn
+ |  | 
+ |  +- Exit CStateMatchEngagementReplaceUnderBall
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementFreeturn
+ |  | 
+ |  | Release CStateMatchEngagementReplaceUnderBall
+ |  | Init CStateMatchEngagementKickoffEnd
+ |  | 
+ |  +- Exit CStateMatchEngagementFreeturn
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffEnd
+ |  | 
+ |  | Release CStateMatchEngagementFreeturn
+ |  | Init CStateMatchEngagementTouchback
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffEnd
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementTouchback
+ |  | 
+ |  | Release CStateMatchEngagementKickoffEnd
+ |  | GameLog(02): Bounce (D8) : 7
+ |  | 
+ |  +- Exit CStateMatchEngagementTouchback
+ | 
+ | Init CStateMatchActionTT
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): ODI #04 Hel uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (04) Hel Block  Result:
+[Defender Stumbles] - [Defender Stumbles] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #04 Hel chooses : Defender Stumbles
+ |  | GameLog(11): SAN #10 Monte Cristo uses Dodge.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #04 Hel uses Frenzy.
+ |  | GameLog(02): ODI (04) Hel Block  Result:
+[Attacker Down] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #04 Hel chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #02 The Notorious BLT Armour Value  (11+) : 6 + 4 + 1{Assists} = 11 -> Success
+ |  | GameLog(02): SAN #02 The Notorious BLT Injury  : 1 + 4 = 5 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (06) Modi Block  Result:
+[Defender Stumbles] - [Both Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): ODI #06 Modi chooses : Both Down
+ |  | GameLog(11): ODI #06 Modi uses Block.
+ |  | GameLog(02): SAN #01 Monsieur Croque Armour Value  (11+) : 4 + 6 = 10 -> Failure
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): SAN #01 Monsieur Croque uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Stand-up  (4+) : 3 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #11 Meat Grinder Dodge {AG}  (4+) : 5 + 1 {Dodge} + {Stunty} = 6 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #04 The Cuban Dodge {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(08): SAN use a re-roll for #04 The Cuban  (Left : 2/2)
+ |  | GameLog(02): SAN #04 The Cuban Dodge {AG}  (4+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (10) Monte Cristo Block  Result:
+[Pushed]  
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #10 Monte Cristo chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 4 + 5 + 2{Assists} = 11 -> Success
+ |  | GameLog(02): ODI #02 Thor Injury  : 1 + 3 = 4 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Armour Value  (11+) : 1 + 1 + 4{Assists} = 6 -> Failure
+ |  | GameLog(02): ODI Armour roll is a double -> #07 Magni is ejected by the referee!
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Ejected by the referee!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Stand-up  (4+) : 3 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Stand-up  (4+) : 5 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #02 The Notorious BLT Stand-up  (4+) : 6 -> Success
+ |  | GameLog(02): SAN #02 The Notorious BLT Take Root  (2+) : 1 -> Failure
+ |  | GameLog(11): SAN #02 The Notorious BLT uses Take Root.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): SAN #04 The Cuban uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (04) The Cuban Block  Result:
+[Pushed] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #04 The Cuban chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 4 + 2 + 3{Assists} = 9 -> Success
+ |  | GameLog(02): ODI #02 Thor Injury  : 5 + 1 = 6 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #05 Porky Buns Dodge {AG}  (4+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #09 Tyr uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (09) Tyr Block  Result:
+[Attacker Down] - [Attacker Down] 
+ |  | GameLog(08): ODI use a re-roll for #09 Tyr  (Left : 1/3)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI (09) Tyr Block  Result:
+[Defender Stumbles] - [Pushed] 
+ |  | GameLog(02): ODI #09 Tyr chooses : Defender Stumbles
+ |  | GameLog(11): ODI #09 Tyr uses Tackle.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #11 Meat Grinder Armour Value  (7+) : 3 + 2 = 5 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #01 Loki Dodge {AG}  (4+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #10 Uller Dodge {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(02): ODI #10 Uller Armour Value  (8+) : 4 + 5 = 9 -> Success
+ |  | GameLog(02): ODI #10 Uller Injury  : 2 + 2 = 4 -> Stunned
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Stand-up  (4+) : 4 -> Success
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 2 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Both Down] - [Defender Stumbles] - [Defender Stumbles]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #06 Modi Armour Value  (8+) : 4 + 6 = 10 -> Success
+ |  | GameLog(02): ODI #06 Modi Injury  : 3 + 3 + 1 {Mighty Blow} = 7 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (04) The Cuban Block  Result:
+[Pushed] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #04 The Cuban chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #01 Loki Armour Value  (8+) : 6 + 5 = 11 -> Success
+ |  | GameLog(02): ODI #01 Loki Injury  : 2 + 5 = 7 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (10) Monte Cristo Block  Result:
+[Pushed] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #10 Monte Cristo chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (02) The Notorious BLT Block  Result:
+[Both Down] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #02 The Notorious BLT chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #13 Sigurôrvaldr Armour Value  (8+) : 4 + 6 = 10 -> Success
+ |  | GameLog(02): ODI #13 Sigurôrvaldr Injury  : 5 + 3 + 1 {Mighty Blow} = 9 -> KO'd
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (07) Reuben Block  Result:
+[Pushed]  
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #07 Reuben chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): SAN #11 Meat Grinder uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (11) Meat Grinder Block  Result:
+[Defender Stumbles]  
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #11 Meat Grinder chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #09 Tyr Armour Value  (8+) : 5 + 5 = 10 -> Success
+ |  | GameLog(02): ODI #09 Tyr Injury  : 2 + 1 = 3 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #05 Balder uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (05) Balder Block  Result:
+[Both Down] - [Both Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #05 Balder chooses : Both Down
+ |  | GameLog(11): ODI #05 Balder uses Block.
+ |  | GameLog(02): SAN #07 Reuben Armour Value  (7+) : 4 + 3 = 7 -> Success
+ |  | GameLog(02): SAN #07 Reuben Injury  : 1 + 4 = 5 -> Stunned
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(11): ODI #02 Thor uses Jump Up.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #11 Vali Going for it  (2+) : 1 -> Failure
+ |  | GameLog(08): ODI use a re-roll for #11 Vali  (Left : 0/3)
+ |  | GameLog(02): ODI #11 Vali Going for it  (2+) : 4 -> Success
+ |  | GameLog(02): ODI #11 Vali Going for it  (2+) : 4 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #04 Hel Dodge {AG}  (5+) : 1 Critical -> Failure
+ |  | GameLog(02): ODI #04 Hel Armour Value  (9+) : 4 + 1 = 5 -> Failure
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Both Down] - [Pushed] - [Both Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Both Down
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Block.
+ |  | GameLog(11): ODI #08 Hermod uses Block.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (02) The Notorious BLT Block  Result:
+[Both Down] - [Attacker Down] - [Pushed]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #02 The Notorious BLT chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): SAN #04 The Cuban uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (04) The Cuban Block  Result:
+[Attacker Down] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #04 The Cuban chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #11 Vali Armour Value  (8+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): ODI #11 Vali Injury  : 5 + 1 = 6 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 6 -> Success
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Both Down] - [Defender Stumbles] - [Pushed]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #08 Hermod Armour Value  (8+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): ODI #08 Hermod Injury  : 2 + 6 + 1 {Mighty Blow} = 9 -> KO'd
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (10) Monte Cristo Block  Result:
+[Attacker Down]  
+ |  | GameLog(08): SAN use a re-roll for #10 Monte Cristo  (Left : 1/2)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN (10) Monte Cristo Block  Result:
+[Both Down]  
+ |  | GameLog(02): SAN #10 Monte Cristo chooses : Both Down
+ |  | GameLog(11): ODI #05 Balder uses Block.
+ |  | GameLog(02): SAN #10 Monte Cristo Armour Value  (7+) : 1 + 4 = 5 -> Failure
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Knocked Down!
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #03 Fenrir uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Pushed] - [Defender Stumbles] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): SAN #09 Number Nine uses Side Step.
+ |  | GameLog(11): ODI #03 Fenrir uses Frenzy.
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Attacker Down] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): SAN #09 Number Nine uses Side Step.
+ |  | GameLog(02): SAN #09 Number Nine Armour Value  (7+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): SAN #09 Number Nine Injury  : 6 + 5 = 11 -> Injured
+ |  | GameLog(02): SAN #09 Number Nine Casualty  : Broken Jaw -> Miss next game
+ |  | GameLog(12): ODI #03 Fenrir earns 2 SPP (Casualty)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #03 Fenrir Dodge {AG}  (5+) : 4 + 1 {Dodge} + 0 {TZ} = 5 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (05) Balder Block  Result:
+[Defender Stumbles] - [Both Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #05 Balder chooses : Both Down
+ |  | GameLog(11): ODI #05 Balder uses Block.
+ |  | GameLog(02): SAN #04 The Cuban Armour Value  (7+) : 1 + 4 = 5 -> Failure
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(11): ODI #01 Loki uses Jump Up.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #02 Thor Dodge {AG}  (4+) : 4 + 1 {Dodge} + -2 {TZ} = 3 -> Failure
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 3 + 3 = 6 -> Failure
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): SAN #13 Deeproot Strongbranch uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Attacker Down] - [Defender Stumbles] - [Defender Stumbles]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #04 Hel Armour Value  (9+) : 6 + 4 = 10 -> Success
+ |  | GameLog(02): ODI #04 Hel Injury  : 4 + 2 + 1 {Mighty Blow} = 7 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 5 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (02) The Notorious BLT Block  Result:
+[Pushed] - [Both Down] - [Both Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #02 The Notorious BLT chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #04 The Cuban Dodge {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(02): SAN #04 The Cuban Armour Value  (7+) : 6 + 4 = 10 -> Success
+ |  | GameLog(02): SAN #04 The Cuban Injury  : 2 + 5 = 7 -> Stunned
+ |  | GameLog(11): SAN #04 The Cuban uses Stunty.
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #05 Balder uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #05 Balder Going for it  (2+) : 5 -> Success
+ |  | GameLog(02): ODI (05) Balder Block  Result:
+[Both Down] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #05 Balder chooses : Both Down
+ |  | GameLog(11): ODI #05 Balder uses Block.
+ |  | GameLog(02): SAN #03 Gyro  Armour Value  (7+) : 5 + 6 = 11 -> Success
+ |  | GameLog(02): SAN #03 Gyro  Injury  : 5 + 1 = 6 -> Stunned
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Pushed] - [Pushed] - [Attacker Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #03 Fenrir uses Frenzy.
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Defender Stumbles] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #05 Porky Buns Armour Value  (7+) : 3 + 5 = 8 -> Success
+ |  | GameLog(02): SAN #05 Porky Buns Injury  : 2 + 4 = 6 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #01 Loki Dodge {AG}  (4+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #10 Monte Cristo Going for it  (2+) : 2 -> Success
+ |  | GameLog(02): SAN #10 Monte Cristo Going for it  (2+) : 2 -> Success
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 5 + 6 + 3{Assists} = 12 -> Success
+ |  | GameLog(02): ODI #02 Thor Injury  : 3 + 6 = 9 -> KO'd
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 2 -> Success
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque Throw Team-Mate {AG}  (6+) : 1 Critical -> Fumble!
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #07 Reuben Land  (4+) : 3 -> Failure
+ |  | GameLog(02): SAN #07 Reuben Armour Value  (7+) : 5 + 5 = 10 -> Success
+ |  | GameLog(02): SAN #07 Reuben Injury  : 6 + 6 = 12 -> Injured
+ |  | GameLog(02): SAN #07 Reuben Casualty  : Badly Hurt -> No long term effect
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | GameLog(00): SAN #11 Meat Grinder uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #11 Meat Grinder Dodge {AG}  (4+) : 4 + 1 {Dodge} + {Stunty} = 5 -> Success
+ |  | GameLog(02): SAN (11) Meat Grinder Block  Result:
+[Attacker Down] - [Pushed] 
+ |  | GameLog(08): SAN use a re-roll for #11 Meat Grinder  (Left : 0/2)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): SAN (11) Meat Grinder Block  Result:
+[Defender Down] - [Defender Stumbles] 
+ |  | GameLog(02): SAN #11 Meat Grinder chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir Armour Value  (9+) : 3 + 3 = 6 -> Failure
+ |  | GameLog(02): Bounce (D8) : 1
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #08 Luther Dodge {AG}  (4+) : 4 + 1 {Dodge} + {Stunty} = 5 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #01 Loki Pick-up {AG}  (4+) : 4 + 1 {Pick-up} -1 {Pouring Rain} = 4 -> Success
+ |  | Init CStateMatchTouchdownTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownTT
+ |  | 
+ |  | GameLog(07): ODI Touchdown by (01) Loki!!!
+ |  | Release CStateMatchActionTT
+ |  | GameLog(12): ODI #01 Loki earns 3 SPP (Touchdown)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchTouchdownTT
+ | 
+ | 
+ |  +- Enter CStateMatchStopAllCharacters
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchStopAllCharacters
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownTT
+ |  | 
+ |  | Release CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchTouchdownTT
+ | 
+ | Release CStateMatchTouchdownTT
+ | Init CStateMatchTouchdownReplay
+ | 
+ |  +- Enter CStateMatchTouchdownReplay
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchPomPomScene
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchTouchdownReplay
+ | 
+ | 
+ |  +- Enter CStateMatchPomPomScene
+ |  | 
+ |  | Stop recording instant replays
+ |  | Release CStateMatchTouchdownReplay
+ |  | Init CStateMatchTouchdownScene
+ |  | Start recording instant replays
+ |  | 
+ |  +- Exit CStateMatchPomPomScene
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownScene
+ |  | 
+ |  | Init CStateMatchPrePlacementReferee
+ |  | 
+ |  +- Exit CStateMatchTouchdownScene
+ | 
+ | 
+ |  +- Enter CStateMatchPrePlacementReferee
+ |  | 
+ |  | Release CStateMatchTouchdownScene
+ |  | Release CStateMatchPomPomScene
+ |  | Init CStateMatchPrePlacement
+ |  | 
+ |  +- Exit CStateMatchPrePlacementReferee
+ | 
+ | 
+ |  +- Enter CStateMatchPrePlacement
+ |  | 
+ |  | GameLog(02): ODI #13 Sigurôrvaldr KO (4+) : 2 -> Failure
+ |  | GameLog(02): ODI #08 Hermod KO (4+) : 1 -> Failure
+ |  | GameLog(02): ODI #02 Thor KO (4+) : 4 -> Success
+ |  | GameLog(02): SAN #04 The Cuban KO (4+) : 2 + 1 {Bloodweiser Babes} = 3 -> Failure
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Stop recording instant replays
+ |  | Release CStateMatchPrePlacementReferee
+ |  | Init CStateMatchPlacementKicker
+ |  | Start recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchPrePlacement
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPrePlacement
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchPlacementReceiver
+ |  | GameLog(05): ODI have 09 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementKicker
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchEngagement
+ |  | GameLog(05): SAN have 10 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchEngagement
+ |  | 
+ |  | Release CStateMatchPlacementReceiver
+ |  | GameLog(02): ODI #01 Loki Kick-off Direction (D8) : 6
+ |  | GameLog(02): ODI #01 Loki Kick-off Distance (D6) : 4
+ |  | Init CStateMatchEngagementKickoffBegin
+ |  | 
+ |  +- Exit CStateMatchEngagement
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffBegin
+ |  | 
+ |  | Release CStateMatchEngagement
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffBegin
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  | Release CStateMatchEngagementKickoffBegin
+ |  | Init CStateMatchEngagementEvent
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffreturnTT
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementEvent
+ |  | 
+ |  | GameLog(03): Kick-Off Table: 5. High Kick
+ |  | Release CStateMatchEngagementKickoffreturnTT
+ |  | Init CStateMatchEngagementExplain
+ |  | 
+ |  +- Exit CStateMatchEngagementEvent
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementExplain
+ |  | 
+ |  | Release CStateMatchEngagementEvent
+ |  | Init CStateMatchEngagementScene
+ |  | 
+ |  +- Exit CStateMatchEngagementExplain
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementScene
+ |  | 
+ |  | Release CStateMatchEngagementExplain
+ |  | Init CStateMatchEngagementReplace
+ |  | 
+ |  +- Exit CStateMatchEngagementScene
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplace
+ |  | 
+ |  | Release CStateMatchEngagementScene
+ |  | Init CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  +- Exit CStateMatchEngagementReplace
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  | Release CStateMatchEngagementReplace
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchEngagementReplaceUnderBall
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchEngagementFreeturn
+ |  | 
+ |  +- Exit CStateMatchEngagementReplaceUnderBall
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementFreeturn
+ |  | 
+ |  | Release CStateMatchEngagementReplaceUnderBall
+ |  | Init CStateMatchEngagementKickoffEnd
+ |  | 
+ |  +- Exit CStateMatchEngagementFreeturn
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffEnd
+ |  | 
+ |  | Release CStateMatchEngagementFreeturn
+ |  | GameLog(02): SAN #11 Meat Grinder Catch {AG}  (4+) : 2 + 0 {Bouncing Ball} -1 {Pouring Rain} = 1 -> Failure
+ |  | Init CStateMatchEngagementTouchback
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffEnd
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementTouchback
+ |  | 
+ |  | Release CStateMatchEngagementKickoffEnd
+ |  | GameLog(02): Bounce (D8) : 1
+ |  | 
+ |  +- Exit CStateMatchEngagementTouchback
+ | 
+ | Init CStateMatchActionTT
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 2 -> Success
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Pushed] - [Defender Stumbles] - [Attacker Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #06 Modi Armour Value  (8+) : 5 + 5 = 10 -> Success
+ |  | GameLog(02): ODI #06 Modi Injury  : 1 + 1 + 1 {Mighty Blow} = 3 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Attacker Down] - [Pushed] - [Both Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #02 The Notorious BLT Take Root  (2+) : 6 -> Success
+ |  | GameLog(02): SAN (02) The Notorious BLT Block  Result:
+[Both Down] - [Attacker Down] - [Defender Stumbles]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #02 The Notorious BLT chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #10 Uller Armour Value  (8+) : 2 + 2 = 4 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): SAN #05 Porky Buns uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (05) Porky Buns Block  Result:
+[Pushed] - [Defender Stumbles] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #05 Porky Buns chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #11 Vali Armour Value  (8+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): ODI #11 Vali Injury  : 4 + 1 = 5 -> Stunned
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #08 Luther Going for it  (2+) : 1 -> Failure
+ |  | GameLog(02): SAN #08 Luther Armour Value  (7+) : 6 + 6 = 12 -> Success
+ |  | GameLog(02): SAN #08 Luther Injury  : 4 + 2 = 6 -> Stunned
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): ODI #02 Thor uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (02) Thor Block  Result:
+[Defender Down]  
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #02 Thor chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #10 Monte Cristo Armour Value  (7+) : 5 + 3 = 8 -> Success
+ |  | GameLog(02): SAN #10 Monte Cristo Injury  : 2 + 6 + 1 {Mighty Blow} = 9 -> KO'd
+ |  | GameLog(11): SAN #10 Monte Cristo uses Stunty.
+ |  | GameLog(02): SAN #10 Monte Cristo Casualty  : Badly Hurt -> No long term effect
+ |  | GameLog(12): ODI #02 Thor earns 2 SPP (Casualty)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Defender Stumbles] - [Pushed] - [Pushed]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Defender Stumbles
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 3 + 1 = 4 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 1 + 2 + 5{Assists} = 8 -> Success
+ |  | GameLog(02): ODI #02 Thor Injury  : 4 + 4 = 8 -> KO'd
+ |  | GameLog(02): SAN Injury roll is a double -> #12 The Hero is ejected by the referee!
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Ejected by the referee!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchHalfend
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchHalfend
+ |  | 
+ |  | Init CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchHalfend
+ | 
+ | 
+ |  +- Enter CStateMatchStopAllCharacters
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchStopAllCharacters
+ | 
+ | 
+ |  +- Enter CStateMatchHalfend
+ |  | 
+ |  | GameLog(04): Half Time
+ |  | Release CStateMatchStopAllCharacters
+ |  | Init CStateMatchPomPomScene
+ |  | 
+ |  +- Exit CStateMatchHalfend
+ | 
+ | 
+ |  +- Enter CStateMatchPomPomScene
+ |  | 
+ |  | Stop recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Release CStateMatchHalfend
+ |  | Init CStateMatchTouchdownScene
+ |  | Start recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchPomPomScene
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownScene
+ |  | 
+ |  | Init CStateMatchPrePlacementReferee
+ |  | 
+ |  +- Exit CStateMatchTouchdownScene
+ | 
+ | 
+ |  +- Enter CStateMatchPrePlacementReferee
+ |  | 
+ |  | Release CStateMatchTouchdownScene
+ |  | Release CStateMatchPomPomScene
+ |  | Init CStateMatchPrePlacement
+ |  | 
+ |  +- Exit CStateMatchPrePlacementReferee
+ | 
+ | 
+ |  +- Enter CStateMatchPrePlacement
+ |  | 
+ |  | GameLog(02): ODI #08 Hermod KO (4+) : 5 -> Success
+ |  | GameLog(02): ODI #13 Sigurôrvaldr KO (4+) : 4 -> Success
+ |  | GameLog(02): ODI #02 Thor KO (4+) : 6 -> Success
+ |  | GameLog(02): SAN #04 The Cuban KO (4+) : 2 + 1 {Bloodweiser Babes} = 3 -> Failure
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Stop recording instant replays
+ |  | Release CStateMatchPrePlacementReferee
+ |  | Init CStateMatchPlacementKicker
+ |  | Start recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchPrePlacement
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPrePlacement
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementKicker
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchPlacementReceiver
+ |  | GameLog(05): ODI have 11 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementKicker
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementKicker
+ |  | validate placement rules
+ |  | Turn mode placement rules
+ |  | Init CStateMatchPlacementWait
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Init CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementLoading
+ |  | 
+ |  | Timer reset
+ |  | 
+ |  +- Exit CStateMatchPlacementLoading
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementWait
+ |  | 
+ |  | Release CStateMatchPlacementLoading
+ |  | 
+ |  +- Exit CStateMatchPlacementWait
+ | 
+ | 
+ |  +- Enter CStateMatchPlacementReceiver
+ |  | 
+ |  | Release CStateMatchPlacementWait
+ |  | Init CStateMatchEngagement
+ |  | GameLog(05): SAN have 08 players on the pitch
+ |  | 
+ |  +- Exit CStateMatchPlacementReceiver
+ | 
+ | 
+ |  +- Enter CStateMatchEngagement
+ |  | 
+ |  | Release CStateMatchPlacementReceiver
+ |  | GameLog(02): ODI #01 Loki Kick-off Direction (D8) : 7
+ |  | GameLog(02): ODI #01 Loki Kick-off Distance (D6) : 1
+ |  | Init CStateMatchEngagementKickoffBegin
+ |  | 
+ |  +- Exit CStateMatchEngagement
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffBegin
+ |  | 
+ |  | Release CStateMatchEngagement
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffBegin
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffreturnTT
+ |  | 
+ |  | Release CStateMatchEngagementKickoffBegin
+ |  | Init CStateMatchEngagementMasterChefExplain
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffreturnTT
+ | 
+ | GameLog(02): SAN: Halfling Master Chef (4+) = (3)(5)(5) -> SAN receives 2 re-roll(s) -> ODI lose 2 re-roll(s)
+ | 
+ |  +- Enter CStateMatchEngagementMasterChefExplain
+ |  | 
+ |  | Release CStateMatchEngagementKickoffreturnTT
+ |  | Init CStateMatchEngagementEvent
+ |  | 
+ |  +- Exit CStateMatchEngagementMasterChefExplain
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementEvent
+ |  | 
+ |  | GameLog(03): Kick-Off Table: 12. Pitch Invasion
+ |  | Release CStateMatchEngagementMasterChefExplain
+ |  | Init CStateMatchEngagementExplain
+ |  | 
+ |  +- Exit CStateMatchEngagementEvent
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementExplain
+ |  | 
+ |  | Release CStateMatchEngagementEvent
+ |  | Init CStateMatchEngagementScene
+ |  | 
+ |  +- Exit CStateMatchEngagementExplain
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementScene
+ |  | 
+ |  | Release CStateMatchEngagementExplain
+ |  | Init CStateMatchEngagementReplace
+ |  | 
+ |  +- Exit CStateMatchEngagementScene
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplace
+ |  | 
+ |  | Release CStateMatchEngagementScene
+ |  | Init CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  +- Exit CStateMatchEngagementReplace
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementReplaceUnderBall
+ |  | 
+ |  | Release CStateMatchEngagementReplace
+ |  | Init CStateMatchEngagementFreeturn
+ |  | 
+ |  +- Exit CStateMatchEngagementReplaceUnderBall
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementFreeturn
+ |  | 
+ |  | Release CStateMatchEngagementReplaceUnderBall
+ |  | Init CStateMatchEngagementKickoffEnd
+ |  | 
+ |  +- Exit CStateMatchEngagementFreeturn
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementKickoffEnd
+ |  | 
+ |  | Release CStateMatchEngagementFreeturn
+ |  | Init CStateMatchEngagementTouchback
+ |  | 
+ |  +- Exit CStateMatchEngagementKickoffEnd
+ | 
+ | 
+ |  +- Enter CStateMatchEngagementTouchback
+ |  | 
+ |  | Release CStateMatchEngagementKickoffEnd
+ |  | GameLog(02): Bounce (D8) : 8
+ |  | 
+ |  +- Exit CStateMatchEngagementTouchback
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | Release CStateMatchActionTT
+ | Init CStateMatchActionTT
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Defender Down] - [Defender Stumbles] - [Defender Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #10 Uller Armour Value  (8+) : 3 + 2 = 5 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): SAN #01 Monsieur Croque uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 2 -> Success
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Pushed] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #06 Modi Armour Value  (8+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): ODI #06 Modi Injury  : 3 + 5 + 1 {Mighty Blow} = 9 -> KO'd
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #06 Beefy au Jus Pick-up {AG}  (4+) : 2 + 1 {Pick-up} -1 {Pouring Rain} = 2 -> Failure
+ |  | GameLog(02): Bounce (D8) : 4
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Pick-up failed!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #05 Porky Buns Armour Value  (7+) : 3 + 6 + 1{Assists} = 10 -> Success
+ |  | GameLog(02): SAN #05 Porky Buns Injury  : 2 + 2 = 4 -> Stunned
+ |  | GameLog(02): ODI Injury roll is a double -> #08 Hermod is ejected by the referee!
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Ejected by the referee!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #02 The Notorious BLT Stand-up  (4+) : 4 -> Success
+ |  | GameLog(02): SAN #02 The Notorious BLT Take Root  (2+) : 1 -> Failure
+ |  | GameLog(11): SAN #02 The Notorious BLT uses Take Root.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Attacker Down] - [Both Down] - [Pushed]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 2 -> Success
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Attacker Down] - [Both Down] 
+ |  | GameLog(08): SAN use a re-roll for #01 Monsieur Croque  (Left : 3/2)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Pushed] - [Pushed] 
+ |  | GameLog(02): SAN #01 Monsieur Croque chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #06 Beefy au Jus Pick-up {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(02): Bounce (D8) : 7
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Pick-up failed!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #01 Loki uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (01) Loki Block  Result:
+[Attacker Down] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #01 Loki chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #01 Loki uses Frenzy.
+ |  | GameLog(02): ODI (01) Loki Block  Result:
+[Defender Down] - [Attacker Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #01 Loki chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #11 Meat Grinder Armour Value  (7+) : 5 + 2 = 7 -> Success
+ |  | GameLog(02): SAN #11 Meat Grinder Injury  : 4 + 3 = 7 -> Stunned
+ |  | GameLog(11): SAN #11 Meat Grinder uses Stunty.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #04 Hel Dodge {AG}  (5+) : 6 Critical -> Success
+ |  | GameLog(02): ODI #04 Hel Going for it  (2+) : 2 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #13 Sigurôrvaldr Dodge {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(02): ODI #13 Sigurôrvaldr Armour Value  (8+) : 2 + 1 = 3 -> Failure
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Knocked Down!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): SAN #13 Deeproot Strongbranch uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Going for it  (2+) : 2 -> Success
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Pushed] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #03 Gyro  Going for it  (2+) : 2 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #01 Monsieur Croque Take Root  (2+) : 1 -> Failure
+ |  | GameLog(11): SAN #01 Monsieur Croque uses Take Root.
+ |  | GameLog(02): SAN (01) Monsieur Croque Block  Result:
+[Pushed] - [Pushed] - [Defender Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque chooses : Defender Down
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): ODI #02 Thor Armour Value  (8+) : 3 + 2 = 5 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #06 Beefy au Jus Dodge {AG}  (4+) : 2 + 1 {Dodge} + {Stunty} = 3 -> Failure
+ |  | GameLog(11): SAN #06 Beefy au Jus uses Dodge.
+ |  | GameLog(02): SAN #06 Beefy au Jus Dodge {AG}  (4+) : 5 + 1 {Dodge} + {Stunty} = 6 -> Success
+ |  | GameLog(02): SAN #06 Beefy au Jus Pick-up {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(08): SAN use a re-roll for #06 Beefy au Jus  (Left : 2/2)
+ |  | GameLog(02): SAN #06 Beefy au Jus Pick-up {AG}  (4+) : 4 + 1 {Pick-up} -1 {Pouring Rain} + -1 {TZ} = 3 -> Failure
+ |  | GameLog(02): Bounce (D8) : 1
+ |  | GameLog(-1): SAN suffer a TURNOVER! : Pick-up failed!
+ |  | GameLog(02): ODI #04 Hel Catch {AG}  (5+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #01 Loki uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (01) Loki Block  Result:
+[Defender Stumbles] - [Attacker Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #01 Loki chooses : Defender Stumbles
+ |  | GameLog(11): SAN #08 Luther uses Dodge.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #01 Loki uses Frenzy.
+ |  | GameLog(02): ODI (01) Loki Block  Result:
+[Both Down] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #01 Loki chooses : Both Down
+ |  | GameLog(11): ODI #01 Loki uses Block.
+ |  | GameLog(02): SAN #08 Luther Armour Value  (7+) : 6 + 4 = 10 -> Success
+ |  | GameLog(02): SAN #08 Luther Injury  : 5 + 4 = 9 -> KO'd
+ |  | GameLog(11): SAN #08 Luther uses Stunty.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #08 Luther Casualty  : Badly Hurt -> No long term effect
+ |  | GameLog(12): ODI #01 Loki earns 2 SPP (Casualty)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (04) Hel Block  Result:
+[Defender Stumbles] - [Both Down] - [Pushed]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #04 Hel chooses : Both Down
+ |  | GameLog(11): ODI #04 Hel uses Block.
+ |  | GameLog(02): SAN #06 Beefy au Jus Armour Value  (7+) : 3 + 6 = 9 -> Success
+ |  | GameLog(02): SAN #06 Beefy au Jus Injury  : 5 + 3 = 8 -> KO'd
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(11): ODI #02 Thor uses Jump Up.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #03 Fenrir Dodge {AG}  (5+) : 6 Critical -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #05 Porky Buns Armour Value  (7+) : 6 + 5 = 11 -> Success
+ |  | GameLog(02): SAN #05 Porky Buns Injury  : 1 + 6 = 7 -> Stunned
+ |  | GameLog(11): SAN #05 Porky Buns uses Stunty.
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): SAN #13 Deeproot Strongbranch uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Pushed] - [Both Down] - [Both Down]
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Both Down
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Block.
+ |  | GameLog(11): ODI #02 Thor uses Block.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(00): ODI #03 Fenrir uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Pushed] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Pushed
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #03 Fenrir uses Frenzy.
+ |  | GameLog(02): ODI #03 Fenrir Going for it  (2+) : 2 -> Success
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Defender Stumbles] - [Attacker Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Defender Stumbles
+ |  | GameLog(11): SAN #03 Gyro  uses Dodge.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI #02 Thor Dodge {AG}  (4+) : 4 + 1 {Dodge} + 0 {TZ} = 5 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Attacker Down] - [Both Down] 
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Loner (4+) : 2 -> Failure
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Loner.
+ |  | GameLog(08): SAN use a re-roll for #13 Deeproot Strongbranch  (Left : 1/2)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Both Down
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Block.
+ |  | GameLog(11): ODI #03 Fenrir uses Block.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #03 Gyro  Dodge {AG}  (4+) : 1 Critical -> Failure
+ |  | GameLog(11): SAN #03 Gyro  uses Dodge.
+ |  | GameLog(02): SAN #03 Gyro  Dodge {AG}  (4+) : 5 + 1 {Dodge} + {Stunty} = 6 -> Success
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | GameLog(00): ODI #02 Thor uses Blitz!
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (02) Thor Block  Result:
+[Pushed] - [Pushed] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #02 Thor chooses : Pushed
+ |  | GameLog(11): SAN #02 The Notorious BLT uses Stand Firm.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(11): ODI #02 Thor uses Frenzy.
+ |  | GameLog(02): ODI (02) Thor Block  Result:
+[Defender Down] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #02 Thor chooses : Defender Down
+ |  | GameLog(11): SAN #02 The Notorious BLT uses Stand Firm.
+ |  | GameLog(02): SAN #02 The Notorious BLT Armour Value  (11+) : 6 + 6 = 12 -> Success
+ |  | GameLog(02): SAN #02 The Notorious BLT Injury  : 2 + 6 + 1 {Mighty Blow} = 9 -> KO'd
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN (13) Deeproot Strongbranch Block  Result:
+[Attacker Down] - [Both Down] 
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Loner (4+) : 1 -> Failure
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Loner.
+ |  | GameLog(08): SAN use a re-roll for #13 Deeproot Strongbranch  (Left : 0/2)
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch chooses : Both Down
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Block.
+ |  | GameLog(11): ODI #03 Fenrir uses Block.
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | GameLog(02): SAN #01 Monsieur Croque Throw Team-Mate {AG}  (6+) : 6 Critical -> Inaccurate pass!
+ |  | GameLog(02): Scatter Launch (D8) : 8
+ |  | GameLog(02): Scatter Launch (D8) : 1
+ |  | GameLog(02): Scatter Launch (D8) : 8
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | GameLog(02): SAN #03 Gyro  Land  (4+) : 2 -> Failure
+ |  | GameLog(02): SAN #03 Gyro  Armour Value  (7+) : 6 + 3 = 9 -> Success
+ |  | GameLog(02): SAN #03 Gyro  Injury  : 6 + 4 = 10 -> Injured
+ |  | GameLog(02): SAN #03 Gyro  Casualty  : Dead -> Dead
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): ODI (03) Fenrir Block  Result:
+[Defender Stumbles] - [Defender Down] 
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is WAITING FOR player decision
+ |  | GameLog(02): ODI #03 Fenrir chooses : Defender Down
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Stand Firm.
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Armour Value  (11+) : 2 + 3 = 5 -> Failure
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Odin'sWrath is NOT WAITING FOR player decision
+ |  | Entering CStatePlayerTeamChooseOptionalSkills, Big Moot Sandwich is NOT WAITING FOR player decision
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Stand-up  (4+) : 2 -> Failure
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Armour Value  (11+) : 2 + 6 + 6{Assists} = 12 -> Success
+ |  | GameLog(02): SAN #13 Deeproot Strongbranch Injury  : 4 + 4 = 8 -> KO'd
+ |  | GameLog(11): SAN #13 Deeproot Strongbranch uses Thick Skull.
+ |  | GameLog(02): ODI Injury roll is a double -> #09 Tyr is ejected by the referee!
+ |  | GameLog(-1): ODI suffer a TURNOVER! : Ejected by the referee!
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Init CStateMatchTurnoverTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchTurnoverTT
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchTurnoverTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchTurnoverTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchSelectTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | 
+ |  +- Exit CStateMatchSelectTT
+ | 
+ | 
+ |  +- Enter CStateMatchActionTT
+ |  | 
+ |  | Release CStateMatchSelectTT
+ |  | Init CStateMatchTouchdownTT
+ |  | 
+ |  +- Exit CStateMatchActionTT
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownTT
+ |  | 
+ |  | GameLog(07): ODI Touchdown by (04) Hel!!!
+ |  | Release CStateMatchActionTT
+ |  | GameLog(12): ODI #04 Hel earns 3 SPP (Touchdown)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchTouchdownTT
+ | 
+ | 
+ |  +- Enter CStateMatchStopAllCharacters
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchStopAllCharacters
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownTT
+ |  | 
+ |  | Release CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchTouchdownTT
+ | 
+ | Release CStateMatchTouchdownTT
+ | Init CStateMatchTouchdownReplay
+ | 
+ |  +- Enter CStateMatchTouchdownReplay
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Init CStateMatchPomPomScene
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchTouchdownReplay
+ | 
+ | 
+ |  +- Enter CStateMatchPomPomScene
+ |  | 
+ |  | Stop recording instant replays
+ |  | Release CStateMatchTouchdownReplay
+ |  | Init CStateMatchTouchdownScene
+ |  | Start recording instant replays
+ |  | 
+ |  +- Exit CStateMatchPomPomScene
+ | 
+ | 
+ |  +- Enter CStateMatchTouchdownScene
+ |  | 
+ |  | Init CStateMatchEnd
+ |  | 
+ |  +- Exit CStateMatchTouchdownScene
+ | 
+ | 
+ |  +- Enter CStateMatchEnd
+ |  | 
+ |  | Release CStateMatchTouchdownScene
+ |  | Release CStateMatchPomPomScene
+ |  | Init CStateMatchStopAllCharacters
+ |  | 
+ |  +- Exit CStateMatchEnd
+ | 
+ | 
+ |  +- Enter CStateMatchStopAllCharacters
+ |  | 
+ |  | 
+ |  +- Exit CStateMatchStopAllCharacters
+ | 
+ | 
+ |  +- Enter CStateMatchEnd
+ |  | 
+ |  | Release CStateMatchStopAllCharacters
+ |  | Init CStateMatchEndingScene
+ |  | 
+ |  +- Exit CStateMatchEnd
+ | 
+ | 
+ |  +- Enter CStateMatchEndingScene
+ |  | 
+ |  | Stop recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Start recording instant replays
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)CAMERAMATCHDEFAULT(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- Exit CStateMatchEndingScene
+ | 
+ | 
+ |  +- Enter CStateMatchEnd
+ |  | 
+ |  | 
+ |  |  +- Collect match statistics
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Collecting characters stats of team Odin'sWrath
+ |  |  |  | 
+ |  |  |  | Loki
+ |  |  |  | Thor
+ |  |  |  | Fenrir
+ |  |  |  | Hel
+ |  |  |  | Modi
+ |  |  |  | Magni
+ |  |  |  | Hermod
+ |  |  |  | Tyr
+ |  |  |  | Uller
+ |  |  |  | Vali
+ |  |  |  | Balder
+ |  |  |  | Frigg
+ |  |  |  | Sigurôrvaldr
+ |  |  |  | 
+ |  |  |  +- Collecting characters stats of team Odin'sWrath
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Collecting characters stats of team Big Moot Sandwich
+ |  |  |  | 
+ |  |  |  | Monsieur Croque
+ |  |  |  | The Notorious BLT
+ |  |  |  | Gyro 
+ |  |  |  | The Cuban
+ |  |  |  | Porky Buns
+ |  |  |  | Reuben
+ |  |  |  | Luther
+ |  |  |  | Monte Cristo
+ |  |  |  | Number Nine
+ |  |  |  | Meat Grinder
+ |  |  |  | The Hero
+ |  |  |  | Beefy au Jus
+ |  |  |  | Deeproot Strongbranch
+ |  |  |  | 
+ |  |  |  +- Collecting characters stats of team Big Moot Sandwich
+ |  |  | 
+ |  |  | 
+ |  |  +- Collect match statistics
+ |  | 
+ |  | 
+ |  |  +- Compute match statistics
+ |  |  | 
+ |  |  | 
+ |  |  |  +- Compute teams statistics
+ |  |  |  | 
+ |  |  |  | Merge players stats to team stats
+ |  |  |  | Set sustained values
+ |  |  |  | 
+ |  |  |  +- Compute teams statistics
+ |  |  | 
+ |  |  | Insert home team stats in match stats
+ |  |  | Insert away team stats in match stats
+ |  |  | 
+ |  |  +- Compute match statistics
+ |  | 
+ |  | 
+ |  |  +- Init database
+ |  |  | 
+ |  |  | Delete previous database if any
+ |  |  | Open database C:/Users/Evan/Documents/BloodBowlChaos/MatchReport.sqlite
+ |  |  | 
+ |  |  +- Init database
+ |  | 
+ |  | Release CStateMatchEndingScene
+ |  | Net-Manager : EndGame
+ |  | Timer reset
+ |  | 
+ |  |  +- CStateGameMatchUnloadBegin
+ |  |  | 
+ |  |  | Stop recording instant replays
+ |  |  | 
+ |  |  |  +- Clear Replay
+ |  |  |  | 
+ |  |  |  | Team 0
+ |  |  |  | Team 1
+ |  |  |  | Ball
+ |  |  |  | Referee
+ |  |  |  | FX
+ |  |  |  | Anim-Manager
+ |  |  |  | 
+ |  |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Exit CStateMatchEnd
+ |  | 
+ |  | Release CStateMatchEnd
+ |  | 
+ |  +- CStateGameMatchUnloadBegin
+ | 
+ | 
+ |  +- CStateGameMatchUnloadBeginGUI
+ |  | 
+ |  | "post" render-step glow parameters : (0.00,0.07,0.05,0.34) 1.98 0.18
+ |  | 
+ |  +- CStateGameMatchUnloadBeginGUI
+ | 
+ | 
+ |  +- CStateGameMatchUnloadAnims
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadAnims
+ | 
+ | 
+ |  +- CStateGameMatchUnloadPopActorsStates
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)CAMERA(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(2)
+ |  | 
+ |  +- CStateGameMatchUnloadPopActorsStates
+ | 
+ | 
+ |  +- CStateGameMatchUnloadGameplay
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadGameplay
+ | 
+ | 
+ |  +- CStateGameMatchSaveReplay
+ |  | 
+ |  | 
+ |  +- CStateGameMatchSaveReplay
+ | 
+ | 
+ |  +- CStateGameMatchUnloadActors
+ |  | 
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)PLAYERTEAMHUMAN(1)
+ |  | Contexts : GLOBAL(1)GUI(1)MATCH(1)
+ |  | Unload: 00 Loki
+ |  | Unload: 01 Thor
+ |  | Unload: 02 Fenrir
+ |  | Unload: 03 Hel
+ |  | Unload: 04 Modi
+ |  | Unload: 05 Magni
+ |  | Unload: 06 Hermod
+ |  | Unload: 07 Tyr
+ |  | Unload: 08 Uller
+ |  | Unload: 09 Vali
+ |  | Unload: 10 Balder
+ |  | Unload: 11 Sigurôrvaldr
+ |  | Unload: 00 Monsieur Croque
+ |  | Unload: 01 The Notorious BLT
+ |  | Unload: 02 Gyro 
+ |  | Unload: 03 The Cuban
+ |  | Unload: 04 Porky Buns
+ |  | Unload: 05 Reuben
+ |  | Unload: 06 Luther
+ |  | Unload: 07 Monte Cristo
+ |  | Unload: 08 Number Nine
+ |  | Unload: 09 Meat Grinder
+ |  | Unload: 10 The Hero
+ |  | Unload: 11 Beefy au Jus
+ |  | Unload: 12 Deeproot Strongbranch
+ |  | 
+ |  +- CStateGameMatchUnloadActors
+ | 
+ | 
+ |  +- CStateGameMatchUnloadCamera
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadCamera
+ | 
+ | 
+ |  +- CStateGameMatchUnloadScene
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadScene
+ | 
+ | 
+ |  +- CStateGameMatchUnloadDeleteSounds
+ |  | 
+ |  | Halfling
+ |  | Unload sounds
+ |  | Norse
+ |  | Unload sounds
+ |  | StarPlayers
+ |  | Unload sounds
+ |  | Unload soundsMatch
+ |  | Unload soundsCharacter
+ |  | Unload soundsCharacterSkills
+ |  | Unload soundsComments
+ |  | Unload soundsCommentsFemale
+ |  | Unload soundsReferee
+ |  | Unload soundsWizard
+ |  | Unload soundsTutorial
+ |  | 
+ |  +- CStateGameMatchUnloadDeleteSounds
+ | 
+ | 
+ |  +- CStateGameMatchUnloadMatch
+ |  | 
+ |  | CActorMatchTTFastForward ~> CActorMatchTT
+ |  | Contexts : GLOBAL(1)GUI(1)
+ |  | CActorMatchTT released
+ |  | 
+ |  |  +- Reset rendering systems
+ |  |  | 
+ |  |  | 
+ |  |  |  +- GUI Scenes preloading
+ |  |  |  | 
+ |  |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  |  | 
+ |  |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | Clear Shadow Quads
+ |  |  | Reset Compositing Manager
+ |  |  | Reset 3D Helpers
+ |  |  | 
+ |  |  |  +- Clear Replay
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Clear Replay
+ |  |  | 
+ |  |  | Stop FXs
+ |  |  | Reset FX Manager
+ |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  |  | 
+ |  |  |  | 
+ |  |  |  +- Loading FXs
+ |  |  | 
+ |  |  | Reset Object Loader
+ |  |  | 
+ |  |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadMatch
+ | 
+ | 
+ |  +- CStateGameMatchUnloadEndGUI
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadEndGUI
+ | 
+ | 
+ |  +- CStateGameMatchUnloadEnd
+ |  | 
+ |  | 
+ |  +- CStateGameMatchUnloadEnd
+ | 
+ | Contexts : GLOBAL(1)GUI(1)CAMERAMENUS(1)
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | 
+ |  +- Random state
+ |  | 
+ |  | [Async] NbCalls: 22834, Seed: 322843633
+ |  | [Sync ] NbCalls: 19, Seed: 41690057
+ |  | 
+ |  +- Random state
+ | 
+ | 
+ |  +- Reset rendering systems
+ |  | 
+ |  | 
+ |  |  +- GUI Scenes preloading
+ |  |  | 
+ |  |  | 3d/Objects/Gui/Gui_Player.nif
+ |  |  | 3d/Objects/Gui/Gui_Rules.nif
+ |  |  | 3d/Objects/Gui/Gui_Team.nif
+ |  |  | 
+ |  |  +- GUI Scenes preloading
+ |  | 
+ |  | Clear Shadow Quads
+ |  | Reset Compositing Manager
+ |  | Reset 3D Helpers
+ |  | 
+ |  |  +- Clear Replay
+ |  |  | 
+ |  |  | 
+ |  |  +- Clear Replay
+ |  | 
+ |  | Stop FXs
+ |  | Reset FX Manager
+ |  | 
+ |  |  +- Loading FXs
+ |  |  | 
+ |  |  | 
+ |  |  +- Loading FXs
+ |  | 
+ |  | Reset Object Loader
+ |  | 
+ |  +- Reset rendering systems
+ | 
+ | Quit campaign
